@@ -20,6 +20,16 @@
     <version>5.2.3</version>
 </dependency>
   </dependencies>
+  <distributionManagement>
+        <snapshotRepository>
+            <id>admin</id>
+            <url>http://13.235.74.40:8081/repository/abhisnapshot/</url>
+        </snapshotRepository>
+        <repository>
+            <id>admkin</id>
+            <url>http://13.235.74.40:8081/repository/abhirelease/</url>
+        </repository>
+  </distributionManagement>	
   <build>
 	  <finalName>doctor-online</finalName>
 	  <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
